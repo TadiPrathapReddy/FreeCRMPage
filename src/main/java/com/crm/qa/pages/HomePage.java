@@ -11,7 +11,6 @@ import com.crm.qa.base.TestBase;
 public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//td[contains(text(),'User: Prathap Reddy')]")
-	@CacheLookup
 	WebElement userNameLabel;
 
 	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
